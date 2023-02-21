@@ -1,0 +1,21 @@
+{
+  "custom": [
+    {
+      "filename" : "app.php",
+      "path" : "@core/config"
+    },
+    {
+      "filename" : "composer.json",
+      "path" : "@core"
+    },
+    {
+      "filename" : "composer.lock",
+      "path" : "@core"
+    },
+    {
+      "filename" : "package.json",
+      "path" : "@core"
+    }
+  ],
+  "version": "1.2.1"
+}

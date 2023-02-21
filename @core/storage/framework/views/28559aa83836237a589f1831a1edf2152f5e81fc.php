@@ -1,0 +1,1 @@
+<div class="info-text"><?php echo e(__('user {color} color text {/color} to make text colorful')); ?></div><?php /**PATH /home/xgenxchi/public_html/laravel/fundorex/@core/resources/views/components/title-info-text.blade.php ENDPATH**/ ?>
