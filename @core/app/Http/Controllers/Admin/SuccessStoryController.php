@@ -90,6 +90,7 @@ class SuccessStoryController extends Controller
             'meta_description' => $blog_details->meta_description,
             'excerpt' => $blog_details->excerpt,
             'image' => $blog_details->image,
+            'video_link' => $blog_details->video_link,
             'meta_title' => $blog_details->meta_title,
             'og_meta_title' => $blog_details->og_meta_title,
             'og_meta_description' => $blog_details->og_meta_description,
@@ -141,6 +142,7 @@ class SuccessStoryController extends Controller
             'meta_description' => $request->meta_description,
             'excerpt' => $request->excerpt,
             'image' => $request->image,
+            'video_link' => $request->video_link,
             'meta_title' => $request->meta_title,
             'og_meta_title' => $request->og_meta_title,
             'og_meta_description' => $request->og_meta_description,
@@ -195,6 +197,4 @@ class SuccessStoryController extends Controller
 
         return redirect()->back()->with(FlashMsg::settings_update());
     }
-
-
 }
