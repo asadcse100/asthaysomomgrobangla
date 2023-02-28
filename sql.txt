@@ -1,0 +1,2 @@
+ALTER TABLE `blogs` ADD `video_link` VARCHAR(255) NULL DEFAULT NULL AFTER `image`;
+ALTER TABLE `success_stories` ADD `video_link` TEXT NULL DEFAULT NULL AFTER `image`;

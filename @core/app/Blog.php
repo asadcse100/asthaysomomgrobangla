@@ -10,7 +10,7 @@ use Spatie\Feed\FeedItem;
 class Blog extends Model implements Feedable
 {
     protected $table = 'blogs';
-    protected $fillable = ['title','status','author','slug','meta_title','meta_description','meta_tags','excerpt','blog_content','blog_categories_id','tags','image','user_id','og_meta_title','og_meta_description','og_meta_image'];
+    protected $fillable = ['title','status','author','slug','meta_title','meta_description','meta_tags','excerpt','video_link','blog_content','blog_categories_id','tags','image','user_id','og_meta_title','og_meta_description','og_meta_image'];
 
     public function category(){
         return $this->belongsTo('App\BlogCategory','blog_categories_id');

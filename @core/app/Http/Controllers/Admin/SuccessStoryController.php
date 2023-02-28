@@ -67,6 +67,7 @@ class SuccessStoryController extends Controller
             'meta_description' => purify_html($request->meta_description),
             'excerpt' => purify_html($request->excerpt),
             'image' => $request->image,
+            'video_link' => $request->video_link,
             'og_meta_title'=> purify_html($request->og_meta_title),
             'og_meta_description'=> purify_html_raw($request->og_meta_description),
             'og_meta_image'=> $request->og_meta_image,

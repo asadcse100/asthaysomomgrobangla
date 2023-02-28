@@ -1124,6 +1124,8 @@ Route::group(['prefix'=>'form-builder','namespace'=>'Admin'],function() {
         Route::post('/single-settings', 'BlogController@update_blog_single_page_settings');
         //bulk action
         Route::post('/bulk-action', 'BlogController@bulk_action')->name('admin.blog.bulk.action');
+        Route::post('/save-image', 'MediaUploadController@image_save')->name("image-upload");
+        Route::post('ckeditor/image_upload', 'MediaUploadController@upload')->name("upload");
     });
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -1451,4 +1453,5 @@ Route::group(['middleware' => ['setlang:backend','auth:admin'],'prefix' => 'admi
     Route::post('/chart', 'AdminDashboardController@get_chart_data')->name('admin.home.chat.data');
     Route::post('/chart/day', 'AdminDashboardController@get_chart_by_date_data')->name('admin.home.chat.data.by.day');
 });
+
 

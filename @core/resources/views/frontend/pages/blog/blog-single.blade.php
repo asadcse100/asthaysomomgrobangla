@@ -58,6 +58,7 @@
                             <div class="content-area mt-4">
                                 <p>  {!! $blog_post->blog_content  !!}</p>
                             </div>
+                            {!! $blog_post->video_link !!}
                         </div>
                        <div class="blog-details-footer">
                            @php
