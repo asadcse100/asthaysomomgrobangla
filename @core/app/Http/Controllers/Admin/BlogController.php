@@ -46,7 +46,7 @@ class BlogController extends Controller
             'category' => 'required',
             'blog_content' => 'required',
             'tags' => 'required',
-            'excerpt' => 'required',
+            'excerpt' => 'nullable',
             'title' => 'required',
             'status' => 'required',
             'author' => 'required',

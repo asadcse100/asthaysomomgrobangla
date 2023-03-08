@@ -34,8 +34,9 @@
                             </div>
                             <div class="form-group">
                                 <label for="message">{{__('Message')}}</label>
-                                <input type="hidden" name="message" >
-                                <div class="summernote"></div>
+                                <!-- <input type="hidden" name="message" > -->
+                                <textarea class="form-control max-height-200" cols="30" rows="10" name="message"></textarea>
+                                <!-- <div class="summernote"></div> -->
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-lg btn-primary">{{__('Send Mail')}}</button>

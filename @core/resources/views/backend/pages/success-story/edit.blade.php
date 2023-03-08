@@ -51,7 +51,8 @@
                                 <label>{{__(' Content')}}</label>
                                 <!-- <input type="hidden" name="story_content" value="{{ $success_story->story_content }}">
                                 <div class="summernote" data-content="{{ $success_story->story_content }}"></div> -->
-                                <textarea class="form-control" name="story_content" id="story_content">{!! $success_story->story_content !!}</textarea>
+                                <!-- <textarea class="form-control" name="story_content" id="story_content">{!! $success_story->story_content !!}</textarea> -->
+                                <textarea class="form-control max-height-200" cols="30" rows="10" name="story_content">{!! $success_story->story_content !!}</textarea>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-6">

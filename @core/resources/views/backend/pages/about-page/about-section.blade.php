@@ -22,7 +22,6 @@
                         <form action="{{route('admin.about.page.about')}}" method="post" enctype="multipart/form-data">
                             @csrf
 
-
                             <div class="form-group">
                                 <label for="about_page_about_section_subtitle">{{__('Subtitle')}}</label>
                                 <input type="text" name="about_page_about_section_subtitle" value="{{get_static_option('about_page_about_section_subtitle')}}" class="form-control" >
@@ -36,6 +35,7 @@
                                 <label for="about_page_about_section_description">{{__('Description')}}</label>
                                 <!-- <input type="hidden" name="about_page_about_section_description" >
                                 <div class="summernote" data-content='{{get_static_option('about_page_about_section_description')}}'></div> -->
+                                <!-- <textarea class="form-control" name="about_page_about_section_description" id="about_page_about_section_description">{!! get_static_option('about_page_about_section_description') !!}</textarea> -->
                                 <textarea class="form-control" name="about_page_about_section_description" id="about_page_about_section_description">{!! get_static_option('about_page_about_section_description') !!}</textarea>
                             </div>
 

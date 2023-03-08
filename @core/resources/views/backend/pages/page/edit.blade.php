@@ -50,7 +50,8 @@
                                 <label>{{__('Content')}}</label>
                                 <!-- <input type="hidden" name="page_content" value="{{$page_post->page_content}}">
                                 <div class="summernote" data-content="{{ $page_post->page_content }}"></div> -->
-                                <textarea class="form-control" name="page_content" id="page_content">{!! $page_post->page_content !!}</textarea>
+                                <!-- <textarea class="form-control" name="page_content" id="page_content">{!! $page_post->page_content !!}</textarea> -->
+                                <textarea class="form-control max-height-200" cols="30" rows="10" name="page_content">{!! $page_post->page_content !!}</textarea>
                             </div>
 
                             <div class="row">

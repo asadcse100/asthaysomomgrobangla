@@ -48,34 +48,35 @@
                                 <label>{{__('Content')}}</label>
                                 <!-- <input type="hidden" name="story_content"> -->
                                 <!-- <div class="summernote"></div> -->
-                                <textarea class="form-control" name="story_content" id="story_content"></textarea>
+                                <!-- <textarea class="form-control" name="story_content" id="story_content"></textarea> -->
+                                <textarea class="form-control max-height-200" cols="30" rows="10" name="story_content"></textarea>
                             </div>
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="meta_tags">{{__('Meta Tags')}}</label>
                                     <input type="text" class="form-control" name="meta_tags"
                                            data-role="tagsinput">
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="title">{{__('Video Link')}}</label>
                                     <textarea name="video_link" id="video_link" class="form-control max-height-150" cols="30" rows="10"></textarea>
                                 </div>
-                                <div class="form-group col-md-12">
+                                <!-- <div class="form-group col-md-12">
                                     <label for="title">{{__('Excerpt')}}</label>
                                     <textarea name="excerpt" id="excerpt" class="form-control max-height-150" cols="30" rows="10"></textarea>
-                                </div>
-                                <div class="form-group col-md-6">
+                                </div> -->
+                                <!-- <div class="form-group col-md-6">
                                     <label for="meta_title">{{__('Meta Title')}}</label>
                                     <input type="text" class="form-control" name="meta_title">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="og_meta_title">{{__('Og Meta Title')}}</label>
                                     <input type="text" class="form-control" name="og_meta_title">
-                                </div>
+                                </div> -->
                             </div>
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="meta_description">{{__('Meta Description')}}</label>
                                     <textarea type="text" class="form-control" name="meta_description"
@@ -87,7 +88,7 @@
                                               name="og_meta_description" rows="5"
                                               cols="10"> </textarea>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="image">{{__('Success Story Image')}}</label>
@@ -102,7 +103,7 @@
                                         </button>
                                     </div>
                                 </div>
-                                <div class="form-group col-md-6">
+                                <!-- <div class="form-group col-md-6">
                                     <label for="og_meta_image">{{__('OG Meta Image')}}</label>
                                     <div class="media-upload-btn-wrapper">
                                         <div class="img-wrap"></div>
@@ -114,7 +115,7 @@
                                             {{__('Upload Image')}}
                                         </button>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
 
                             <div class="row">

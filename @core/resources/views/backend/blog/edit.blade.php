@@ -51,7 +51,8 @@
                                 <label>{{__('Blog Content')}}</label>
                                 <!-- <input type="hidden" name="blog_content" value="{{ $blog_post->blog_content }}">
                                 <div class="summernote" data-content="{{ $blog_post->blog_content }}"></div> -->
-                                <textarea class="form-control" name="blog_post" id="blog_post">{!! $blog_post->blog_content !!}</textarea>
+                                <!-- <textarea class="form-control" name="blog_post" id="blog_post">{!! $blog_post->blog_content !!}</textarea> -->
+                                <textarea class="form-control max-height-200" cols="30" rows="10" name="blog_post">{!! $blog_post->blog_content !!}</textarea>
                             </div>
 
                             <div class="row">

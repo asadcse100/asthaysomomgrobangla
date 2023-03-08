@@ -34,7 +34,8 @@
                                        name="about_page_our_mission_description">
                                 <div class="summernote"
                                      data-content='{{get_static_option('about_page_our_mission_description')}}'></div> -->
-                                     <textarea class="form-control" name="about_page_our_mission_description" id="about_page_our_mission_description">{!! get_static_option('about_page_our_mission_description') !!}</textarea>
+                                     <!-- <textarea class="form-control" name="about_page_our_mission_description" id="about_page_our_mission_description">{!! get_static_option('about_page_our_mission_description') !!}</textarea> -->
+                                     <textarea class="form-control max-height-200" cols="30" rows="10" name="about_page_our_mission_description">{!! get_static_option('about_page_our_mission_description') !!}</textarea>
                             </div>
 
 

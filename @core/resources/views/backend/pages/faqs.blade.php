@@ -119,8 +119,9 @@
                             </div>
                             <div class="form-group">
                                 <label for="description">{{__('Description')}}</label>
-                                <input type="hidden" name="description">
-                                <div class="summernote"></div>
+                                <!-- <input type="hidden" name="description"> -->
+                                <!-- <div class="summernote"></div> -->
+                                <textarea class="form-control max-height-200" cols="30" rows="10" name="description"></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="status">{{__('Status')}}</label>
@@ -165,8 +166,9 @@
                         </div>
                         <div class="form-group">
                             <label for="edit_description">{{__('Description')}}</label>
-                            <input type="hidden" id="edit_description" name="description">
-                            <div class="summernote"></div>
+                            <!-- <input type="hidden" id="edit_description" name="description"> -->
+                            <!-- <div class="summernote"></div> -->
+                            <textarea class="form-control max-height-200" cols="30" rows="10" id="edit_description" name="description"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="edit_status">{{__('Status')}}</label>

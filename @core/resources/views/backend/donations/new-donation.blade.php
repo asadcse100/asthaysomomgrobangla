@@ -56,7 +56,8 @@
                                         <label>{{__('Content')}}</label>
                                         <!-- <input type="hidden" name="cause_content" >
                                         <div class="summernote"></div> -->
-                                        <textarea class="form-control" name="cause_content" id="cause_content"></textarea>
+                                        <!-- <textarea class="form-control" name="cause_content" id="cause_content"></textarea> -->
+                                        <textarea class="form-control max-height-200" cols="30" rows="10" name="cause_content"></textarea>
                                     </div>
                                     <div class="form-group">
                                         <label for="amount">{{__('Amount')}}</label>

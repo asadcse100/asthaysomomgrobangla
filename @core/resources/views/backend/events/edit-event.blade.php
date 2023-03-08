@@ -65,7 +65,8 @@
                                         <label>{{__('Content')}}</label>
                                         <!-- <input type="hidden" name="event_content" value="{{$event->content}}">
                                         <div class="summernote" data-content='{{$event->content}}'></div> -->
-                                        <textarea class="form-control" name="event_content" id="event_content">{!! $event->content !!}</textarea>
+                                        <!-- <textarea class="form-control" name="event_content" id="event_content">{!! $event->content !!}</textarea> -->
+                                        <textarea class="form-control max-height-200" cols="30" rows="10" name="event_content">{!! $event->content !!}</textarea>
                                     </div>
                                     <div class="form-group col-md-12">
                                         <label for="title">{{__('Video Link')}}</label>

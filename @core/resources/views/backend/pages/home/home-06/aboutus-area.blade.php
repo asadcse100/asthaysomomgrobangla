@@ -30,7 +30,7 @@
                                 <div class="form-group">
                                     <label>{{__('Description')}}</label>
 
-                                    <textarea id="data" class="form-control" name="home_page_06_about_us_area_description">
+                                    <textarea id="data" class="form-control max-height-200" cols="30" rows="10" name="home_page_06_about_us_area_description">
                                         {!! get_static_option('home_page_06_about_us_area_description') !!}
                                     </textarea>
 
