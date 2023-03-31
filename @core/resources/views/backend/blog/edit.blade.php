@@ -52,7 +52,7 @@
                                 <!-- <input type="hidden" name="blog_content" value="{{ $blog_post->blog_content }}">
                                 <div class="summernote" data-content="{{ $blog_post->blog_content }}"></div> -->
                                 <!-- <textarea class="form-control" name="blog_post" id="blog_post">{!! $blog_post->blog_content !!}</textarea> -->
-                                <textarea class="form-control max-height-200" cols="30" rows="10" name="blog_post">{!! $blog_post->blog_content !!}</textarea>
+                                <textarea class="form-control max-height-200" cols="30" rows="10" name="blog_content">{!! $blog_post->blog_content !!}</textarea>
                             </div>
 
                             <div class="row">
@@ -61,7 +61,7 @@
                                     <input type="text" class="form-control" name="author"
                                            value="{{$blog_post->author}}">
                                 </div>
-                                <div class="form-group col-md-4">
+                                <!-- <div class="form-group col-md-4">
                                     <label for="title">{{__('Blog Tags')}}</label>
                                     <input type="text" class="form-control" name="tags"
                                            data-role="tagsinput" value="{{$blog_post->tags}}">
@@ -70,9 +70,15 @@
                                     <label for="meta_tags">{{__('Meta Tags')}}</label>
                                     <input type="text" class="form-control" name="meta_tags"
                                            data-role="tagsinput" value="{{$blog_post->meta_tags}}">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="title">{{__('Video Link')}}</label>
+                                    <textarea name="video_link" id="video_link" class="form-control max-height-150" cols="30" rows="10">@if(!empty($blog_post->video_link)){!! $blog_post->video_link !!}@endif</textarea>
+                                </div>
+                            </div>
+                            <!-- <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="title">{{__('Excerpt')}}</label>
                                     <textarea name="excerpt" id="excerpt" class="form-control max-height-150" cols="30"
@@ -101,7 +107,7 @@
                                               name="og_meta_description" rows="5"
                                               cols="10">{{$blog_post->og_meta_description}} </textarea>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="row">
                                 <div class="form-group col-md-6 col-lg-6">
                                     <label for="image">{{__('Blog Image')}}</label>
@@ -134,7 +140,7 @@
                                     </div>
                                     <small class="form-text text-muted">{{__('allowed image format: jpg,jpeg,png')}}</small>
                                 </div>
-                                <div class="form-group col-md-6 col-lg-6">
+                                <!-- <div class="form-group col-md-6 col-lg-6">
                                     <label for="og_meta_image">{{__('Og Meta Image')}}</label>
                                     <div class="media-upload-btn-wrapper">
                                         <div class="img-wrap">
@@ -164,7 +170,7 @@
                                         </button>
                                     </div>
                                     <small class="form-text text-muted">{{__('allowed image format: jpg,jpeg,png')}}</small>
-                                </div>
+                                </div> -->
 
                             </div>
 

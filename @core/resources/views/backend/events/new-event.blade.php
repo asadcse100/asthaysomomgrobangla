@@ -118,7 +118,7 @@
                                         <label for="venue_phone">{{__('Venue Phone')}}</label>
                                         <input type="text" class="form-control"  id="venue_phone" name="venue_phone" value="{{old('venue_phone')}}" placeholder="{{__('Venue Phone')}}">
                                     </div>
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="meta_title">{{__('Meta Title')}}</label>
                                         <input type="text" name="meta_title"  class="form-control" >
                                     </div>
@@ -129,7 +129,7 @@
                                     <div class="form-group">
                                         <label for="meta_description">{{__('Meta Description')}}</label>
                                         <textarea name="meta_description"  class="form-control" rows="5" id="meta_description"></textarea>
-                                    </div>
+                                    </div> -->
                                     <div class="form-group">
                                         <label for="image">{{__('Image')}}</label>
                                         <div class="media-upload-btn-wrapper">

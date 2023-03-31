@@ -115,7 +115,7 @@ class SuccessStoryController extends Controller
         $this->validate($request,[
             'category' => 'required',
             'story_content' => 'required',
-            'excerpt' => 'required',
+            'excerpt' => 'nullable',
             'title' => 'required',
             'status' => 'required',
             'slug' => 'nullable',

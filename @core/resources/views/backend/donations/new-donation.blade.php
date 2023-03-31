@@ -63,10 +63,10 @@
                                         <label for="amount">{{__('Amount')}}</label>
                                         <input type="number" class="form-control"  name="amount" placeholder="{{__('amount')}}">
                                     </div>
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="excerpt">{{__('Excerpt')}}</label>
                                         <textarea class="form-control" name="excerpt" rows="5" placeholder="{{__('expert')}}"></textarea>
-                                    </div>
+                                    </div> -->
                                     <div class="form-group">
                                         <label for="categories_id"><strong>{{__('Category')}}</strong></label>
                                         <select name="categories_id" class="form-control">
@@ -81,7 +81,7 @@
                                         <input type="date" class="form-control" placeholder="{{__('Deadline')}}" name="deadline" >
                                         <small class="text-primary">{{__('Deadline is optional, if you set deadline for this cause, than donation will expire according this deadline..!')}}</small>
                                     </div>
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="meta_title">{{__('Meta Title')}}</label>
                                         <input type="text" name="meta_title"  class="form-control">
                                     </div>
@@ -111,7 +111,7 @@
                                             </button>
                                         </div>
                                         <small>{{__('Recommended image size 1920x1280')}}</small>
-                                    </div>
+                                    </div> -->
                                     <div class="form-group">
                                         <label for="image">{{__('Image')}}</label>
                                         <div class="media-upload-btn-wrapper">

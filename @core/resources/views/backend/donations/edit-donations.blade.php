@@ -63,10 +63,10 @@
                                         <label for="amount">{{__('Amount')}}</label>
                                         <input type="number" class="form-control"  id="amount" name="amount" value="{{$donation->amount}}">
                                     </div>
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="excerpt">{{__('Excerpt')}}</label>
                                         <textarea class="form-control" name="excerpt" rows="5" placeholder="{{__('expert')}}">{{$donation->excerpt}}</textarea>
-                                    </div>
+                                    </div> -->
                                     <div class="form-group">
                                         <label for="categories_id"><strong>{{__('Category')}}</strong></label>
                                         <select name="categories_id" class="form-control">
@@ -79,7 +79,7 @@
                                         <label for="date">{{__('Deadline')}}</label>
                                         <input type="date" class="form-control" value="{{$donation->deadline}}" name="deadline" >
                                     </div>
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="meta_title">{{__('Meta Title')}}</label>
                                         <input type="text" name="meta_title" value="{{$donation->meta_title}}"  class="form-control">
                                     </div>
@@ -112,7 +112,7 @@
                                             </button>
                                         </div>
 
-                                    </div>
+                                    </div> -->
                                     <div class="form-group">
                                         <label for="image">{{__('Image')}}</label>
                                         <div class="media-upload-btn-wrapper">
